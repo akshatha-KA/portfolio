@@ -45,15 +45,15 @@
                 <form method="POST" action="addResponse.php">
                     <div class="form-group">
                         <label for="NameLabel">Name</label>
-                        <input type="text" class="form-control" id="Name" placeholder="Enter name"> 
+                        <input required type="text" class="form-control" id="Name" name="Name" placeholder="Enter name"> 
                       </div>
                     <div class="form-group">
                       <label for="EmailLabel">Email</label>
-                      <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="Enter email">
+                      <input required type="email" class="form-control" id="Email" name="Email" aria-describedby="emailHelp" placeholder="Enter email">
                     </div>
                     <div class="form-group">
                       <label for="teleLabel">Phone</label>
-                      <input type="tel" class="form-control" id="Phone" placeholder="Enter Phone">
+                      <input required type="tel" class="form-control" id="Phone" name="Phone" placeholder="Enter Phone">
                     </div>
                     <button onclick="submitting()" class="btn btn-primary">Submit</button>
                   </form>
